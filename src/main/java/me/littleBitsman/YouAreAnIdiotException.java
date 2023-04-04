@@ -1,6 +1,6 @@
 package me.littleBitsman;
 
-public class YouAreAnIdiotException extends RuntimeException {
+public class YouAreAnIdiotException extends Exception {
     public YouAreAnIdiotException() {
         super("YOU ARE AN IDIOT LOL \uD83D\uDC80\uD83D\uDC80\uD83D\uDDFF");
     }
